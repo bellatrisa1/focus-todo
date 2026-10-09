@@ -1,0 +1,24 @@
+.modal {
+  width: min(520px, calc(100% - 32px));
+  max-height: calc(100dvh - 48px);
+  border: 1px solid #e6e8ee;
+  border-radius: 22px;
+  padding: 28px;
+  color: var(--text);
+  box-shadow: 0 24px 100px #18234230;
+  &::backdrop {
+    background: #18203965;
+    backdrop-filter: blur(4px);
+  }
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  h2 {
+    font-size: 22px;
+    margin: 0;
+  }
+}
